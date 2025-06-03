@@ -1,0 +1,31 @@
+.div1{
+    border: 2px solid green;
+    border-radius: 20%;
+    width: 300px;
+    height: auto;
+}
+body{
+    width: 70%;
+    border: 2px solid blue;
+    margin-left: 150px;
+    padding: 30px 40px;
+    height: auto;
+}
+li{
+    margin: 10px 5px;
+}
+span{
+    color: skyblue;
+}
+input{
+    border: none;
+    background-color: greenyellow;
+    width: auto;
+    height: 50px;
+    margin-top: 25px;
+    color: white;
+}
+footer input:hover{
+    background-color: aqua;
+    box-shadow: 10px 0px 10px 0px greenyellow ;
+}

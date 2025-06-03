@@ -1,0 +1,135 @@
+body{
+    width: 80%;
+    margin-left: 70px;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: antiquewhite;
+    font-size: 16px;
+    padding-right: 100px;
+}
+
+.paragraph{
+    width: 100px;
+    height: 100px;
+    color: blue;
+    display: inline;
+}
+.paragraph h1{
+    display: inline;
+}
+.madiv{
+    position: relative;
+    display: inline-block;
+    margin: 10px 16px;
+    float: right;
+}
+.button{
+    border: none;
+    background-color: antiquewhite;
+    color: blue;
+}
+.menu{
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: greenyellow;
+    min-width: 160px;
+    box-shadow: 0px 10px 10px 10px white;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 16px;
+}
+.madiv:hover .menu {
+    display: block;
+}
+.madiv a:hover{
+    background-color: aqua;
+}
+.titre{
+    background-image: url(vid/pont.jpg);
+    width: 50%;
+    height: 300px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 100px;
+}
+.titre h1{
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0px 2px 2px 0px white;
+    margin-top: 100px;
+}
+.content{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+     float: left;
+     margin: 20px 20px;
+     border-radius:50% ;
+     animation: rotation 5s infinite linear;
+}
+details{
+    margin: 15px 15px;
+    display: block;
+}
+summary{
+    color: green;
+    font-size: bold;
+    font-style: italic;
+}
+.ras img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin-right: 20px;
+}
+.ras img:hover{
+    box-shadow: 5px 0px 5px 0px aqua;
+}
+form{
+    margin-left: 150px;
+    width: 50%;
+    background-color: burlywood;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+form input{
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    color: black;
+    display: block;
+    background-color: burlywood;
+    margin-left: 100px;
+    margin-bottom: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid greenyellow;
+    text-align: center;
+    outline: none;
+}
+form input[type="submit"]{
+    background-color: greenyellow;
+    color: white;
+    width: 350px;
+    height: 40px;
+    margin-left: 75px;
+    border: none;
+}
+form input[type="submit"]:hover{
+box-shadow: 10px 0px 10px 0px violet;
+}
